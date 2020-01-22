@@ -1,0 +1,1 @@
+local DEFAULT_TABLE = { __newindex = false, __metatable = false }
