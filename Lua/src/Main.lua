@@ -1,4 +1,5 @@
 --region Base Require
+require("Enumerators")
 require("Utils")
 --endregion
 
@@ -85,9 +86,30 @@ require("Utils")
 --endregion
 
 --region string extension
-local str = "asdfas,asdfas,adffasdfsafdasfd3,123,12311,!@#$!%!#$!@#$!@"
-local result = str:Split()
-for i, v in pairs(result) do
-    print(v)
-end
+--local str = "asdfas,asdfas,adffasdfsafdasfd3,123,12311,!@#$!%!#$!@#$!@"
+--local result = str:Split()
+--for i, v in pairs(result) do
+--    print(v)
+--end
+--endregion
+
+--region RedDotController Test
+require "RedDotController.RedDotController"
+
+local redDotData = {
+    [1] = {
+        RedDotType = ERedDotType.Normal,
+        Node = {
+            [1] = {
+                Path = "MainRoot/Root_1",
+                CalcMethod = "M_1",
+            }
+        }
+    }
+}
+
+RedDotController.Init(redDotData)
+local root, leaf = RedDotController.GetTree()
+print("Done")
+
 --endregion

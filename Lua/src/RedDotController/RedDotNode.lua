@@ -1,21 +1,21 @@
 require "Utils"
 
 ---@class RedDotNode
-local RedDotNode = {
+RedDotNode = {
     NodeName = nil,
     ShowRedDot = false,
     ChildNode = nil,
     ParentNode = nil,
+    CalcMethod = nil,
 }
-RedDotNode.__index = RedDotNode
 
 ---New
 ---@param name string
 ---@param parent RedDotNode
 function RedDotNode:New(name, parent)
     local obj = {}
-    setmetatable(obj, RedDotNode)
-    self:Init(name, parent)
+    setmetatable(obj, { __index = self })
+    obj:Init(name, parent)
     return obj
 end
 
@@ -25,6 +25,7 @@ function RedDotNode:Init(name, parent)
     self.ShowRedDot = false
     self.ChildNode = {}
     self:SetParent(parent)
+    self.CalcMethod = nil
 end
 
 ---AddChild
@@ -55,4 +56,10 @@ function RedDotNode:SetParent(parent)
     self.ParentNode = parent
 end
 
-return RedDotNode
+function RedDotNode:SetCalcMethod(calcMethodName)
+    if string.IsNullOrEmpty(calcMethodName) then
+        LogWithStackInfo("传入了一个错误的方法名")
+        return
+    end
+    self.CalcMethod = calcMethodName
+end

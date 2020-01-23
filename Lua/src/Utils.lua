@@ -59,11 +59,11 @@ function string:Split(separator)
     end
     local result = {}
     string.gsub(
-        self,
-        string.format("[^%s]+", separator),
-        function(match)
-            table.insert(result, match)
-        end
+            self,
+            string.format("[^%s]+", separator),
+            function(match)
+                table.insert(result, match)
+            end
     )
     return result
 end
@@ -71,7 +71,7 @@ end
 --endregion
 
 --region GUID
-local guidSeed = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"}
+local guidSeed = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f" }
 function GetGUID()
     local t = {}
     for i = 1, 32 do
@@ -79,13 +79,21 @@ function GetGUID()
     end
     local tc = table.concat(t)
     return string.format(
-        "%s-%s-%s-%s-%s",
-        string.sub(tc, 1, 8),
-        string.sub(tc, 9, 12),
-        string.sub(tc, 13, 16),
-        string.sub(tc, 17, 20),
-        string.sub(tc, 21, 32)
+            "%s-%s-%s-%s-%s",
+            string.sub(tc, 1, 8),
+            string.sub(tc, 9, 12),
+            string.sub(tc, 13, 16),
+            string.sub(tc, 17, 20),
+            string.sub(tc, 21, 32)
     )
+end
+
+--endregion
+
+--region Debug
+
+function LogWithStackInfo(msg)
+    print(string.format("%s\n%s", msg, debug.traceback()))
 end
 
 --endregion
