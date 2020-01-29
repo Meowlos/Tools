@@ -103,6 +103,8 @@ function RedDotController.Init(nodeConfig, useCache)
     )
 end
 
+---红点更新
+---@param redDotType userdata
 function RedDotController.UpdateRedDot(redDotType)
     if this.useCache and not table.ContainValue(UpdateCache, redDotType) then
         table.insert(UpdateCache, redDotType)
@@ -149,32 +151,41 @@ function RedDotController._UpdateRedDot(cache)
     )
 end
 
+---红点处理
+---@param redDotType userdata
+---@param NodeName userdata
 function RedDotController.ResolveRedDot(redDotType, NodeName)
     if not leafCollection[redDotType] or string.IsNullOrEmpty(NodeName) then
         return
     end
-    for i = 1, #leafCollection[redDotType] do
-        if leafCollection[redDotType][i].NodeName == NodeName then
-            local node = leafCollection[redDotType][i]
-            node.ShowRedDot = false
+    coroutine.resume(
+            coroutine.create(
+                    function()
+                        for i = 1, #leafCollection[redDotType] do
+                            if leafCollection[redDotType][i].NodeName == NodeName then
+                                local node = leafCollection[redDotType][i]
+                                node.ShowRedDot = false
 
-            local parentNode = node.ParentNode
-            local showRed = false
-            while parentNode do
-                showRed = false
-                for j = 1, #parentNode.ChildNode do
-                    if parentNode.ChildNode[j] then
-                        showRed = parentNode.ChildNode[j].ShowRedDot
+                                local parentNode = node.ParentNode
+                                local showRed = false
+                                while parentNode do
+                                    showRed = false
+                                    for j = 1, #parentNode.ChildNode do
+                                        if parentNode.ChildNode[j] then
+                                            showRed = parentNode.ChildNode[j].ShowRedDot
+                                        end
+                                    end
+                                    parentNode.ShowRedDot = showRed
+                                    if parentNode.ShowRedDot then
+                                        return
+                                    end
+                                    parentNode = parentNode.ParentNode
+                                end
+                            end
+                        end
                     end
-                end
-                parentNode.ShowRedDot = showRed
-                if parentNode.ShowRedDot then
-                    return
-                end
-                parentNode = parentNode.ParentNode
-            end
-        end
-    end
+            )
+    )
 end
 
 --region Timer
