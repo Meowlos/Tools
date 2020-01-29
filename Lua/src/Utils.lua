@@ -40,6 +40,32 @@ function table.GetKeys_byAscending(t)
     return result
 end
 
+function table.ContainValue(t, value)
+    for i = 1, #t do
+        if t[i] == value then
+            return true
+        end
+    end
+    return false
+end
+
+function table.ContainKey(t, key)
+    for i, v in pairs(t) do
+        if i == key then
+            return true
+        end
+    end
+    return false
+end
+
+function table.Count(t)
+    local count = 0
+    for i, v in pairs(t) do
+        count = count + 1
+    end
+    return count
+end
+
 --endregion
 
 --region string 扩展
