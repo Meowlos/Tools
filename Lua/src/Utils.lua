@@ -94,6 +94,34 @@ function string:Split(separator)
     return result
 end
 
+--- 将字节序列转换为字符串, 不适用于 UTF8 环境
+function string.Bytes2String(bytes)
+    local chars = {}
+
+    local index = 1
+    repeat
+        if bytes[index] <= 128 then
+            -- ASCII 字符
+            table.insert(chars, string.char(bytes[index]))
+            index = index + 1
+        elseif bytes[index] >= 194 and bytes[index] <= 223 then
+            table.insert(chars, string.char(bytes[index], bytes[index + 1]))
+            index = index + 2
+        elseif bytes[index] >= 224 and bytes[index] <= 239 then
+            table.insert(chars, string.char(bytes[index], bytes[index + 1], bytes[index + 2]))
+            index = index + 3
+        elseif bytes[index] >= 240 and bytes[index] <= 244 then
+            table.insert(chars, string.char(bytes[index], bytes[index + 1], bytes[index + 2], bytes[index + 3]))
+            index = index + 4
+        else
+            print("Unknown: " .. bytes[index])
+            index = index + 1
+        end
+    until index > #bytes
+
+    return table.concat(chars)
+end
+
 --endregion
 
 --region GUID
