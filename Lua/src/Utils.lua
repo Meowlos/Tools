@@ -71,7 +71,7 @@ end
 --region string 扩展
 --- 字符串是否为空
 function string.IsNullOrEmpty(str)
-    if type(str) ~= "string" or (type(str) == "string" and (str == nil or #str == 0)) then
+    if type(str) ~= "string" or (type(str) == "string" and #str == 0) then
         return true
     end
     return false
