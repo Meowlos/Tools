@@ -122,6 +122,10 @@ function string.Bytes2String(bytes)
     return table.concat(chars)
 end
 
+function string.Trim(str)
+    return (string.gsub(str, "^%s*(.-)%s*$", "%1"))
+end
+
 --endregion
 
 --region GUID
