@@ -6,31 +6,33 @@ using UnityEngine.EventSystems;
 public class EventDelivery : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
 
-    public delegate void LongPressCallBack(GameObject interactive, float pressTime);
+    public delegate void LongPressCallBack(GameObject interactive, double pressTime);
     public event LongPressCallBack LongPress;
-    [SerializeField] private float m_longPressTime = 0.0f;
+    [SerializeField] private double m_longPressTime = 0.0f;
 
-    private bool m_longPress = false;
-    private float m_timer = 0.0f;
-    private bool inDragging = false;
+    private double m_pressTime;
+    private bool m_inDragging;
+    private DateTime m_pressDate;
 
     private GameObject m_press;
 
     void IPointerUpHandler.OnPointerUp(PointerEventData eventData)
     {
-        m_longPress = false;
 
-        if (inDragging)
+        if (m_inDragging)
         {
             return;
         }
 
-        if (m_timer < m_longPressTime)
+        var diff = DateTime.Now.Subtract(m_pressDate);
+
+        if (diff.TotalSeconds < m_longPressTime)
         {
             Execute(eventData, ExecuteEvents.pointerClickHandler);
         }
         else
         {
+            m_pressTime = diff.TotalSeconds;
             Execute<ILongPressHandler>(eventData);
         }
         m_press = null;
@@ -39,13 +41,12 @@ public class EventDelivery : MonoBehaviour, IPointerUpHandler, IPointerDownHandl
     void IPointerDownHandler.OnPointerDown(PointerEventData eventData)
     {
         m_press = FindCanInteractiveGameObject(eventData);
-        m_timer = 0.0f;
-        m_longPress = true;
+        m_pressDate = DateTime.Now;
     }
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
-        inDragging = true;
+        m_inDragging = true;
         m_press = FindCanInteractiveGameObject(eventData);
         Execute(eventData, ExecuteEvents.beginDragHandler);
     }
@@ -55,17 +56,8 @@ public class EventDelivery : MonoBehaviour, IPointerUpHandler, IPointerDownHandl
     void IEndDragHandler.OnEndDrag(PointerEventData eventData)
     {
         Execute(eventData, ExecuteEvents.endDragHandler);
-        inDragging = false;
+        m_inDragging = false;
         m_press = null;
-    }
-
-    private void Update()
-    {
-        if (!m_longPress)
-        {
-            return;
-        }
-        m_timer += Time.deltaTime;
     }
 
     private GameObject FindCanInteractiveGameObject(PointerEventData eventData)
@@ -104,7 +96,7 @@ public class EventDelivery : MonoBehaviour, IPointerUpHandler, IPointerDownHandl
 
         if (eventType == typeof(ILongPressHandler))
         {
-            LongPress?.Invoke(m_press, m_timer);
+            LongPress?.Invoke(m_press, m_pressTime);
         }
         else if (fun != null)
         {

@@ -17,7 +17,7 @@ public class TestEventDelivery : MonoBehaviour, IPointerClickHandler, IBeginDrag
         delivery.LongPress += CallBack;
     }
 
-    private void CallBack(GameObject go, float pressTime)
+    private void CallBack(GameObject go, double pressTime)
     {
         if (go != gameObject)
         {
