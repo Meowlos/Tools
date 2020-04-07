@@ -91,25 +91,32 @@ require("Utils")
 --for i, v in pairs(result) do
 --    print(v)
 --end
+
+print(string.IsNullOrEmpty(nil))
+print(string.IsNullOrEmpty(""))
+print(string.IsNullOrEmpty(true))
+print(string.IsNullOrEmpty(1))
+print(string.IsNullOrEmpty("1"))
+print(string.IsNullOrEmpty(" "))
 --endregion
 
 --region RedDotController Test
 require "RedDotController.RedDotController"
 
-local redDotData = {
-    [1] = {
-        RedDotType = ERedDotType.Normal,
-        Node = {
-            [1] = {
-                Path = "MainRoot/Root_1",
-                CalcMethod = "M_1",
-            }
-        }
-    }
-}
-
-RedDotController.Init(redDotData)
-local root, leaf = RedDotController.GetTree()
-print("Done")
+--local redDotData = {
+--    [1] = {
+--        RedDotType = ERedDotType.Normal,
+--        Node = {
+--            [1] = {
+--                Path = "MainRoot/Root_1",
+--                CalcMethod = "M_1",
+--            }
+--        }
+--    }
+--}
+--
+--RedDotController.Init(redDotData)
+--local root, leaf = RedDotController.GetTree()
+--print("Done")
 
 --endregion
