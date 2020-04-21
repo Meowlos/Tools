@@ -155,3 +155,30 @@ function LogWithStackInfo(msg)
 end
 
 --endregion
+
+---region Math
+
+function math.unsignedDiv(n, d)
+    -- 比较 d 是否大于 2^63
+    -- 如果大于, 那么商只能是 1(如果 n 等于或大于 d ) 或 0
+    if d < 0 then
+        if math.ult(n, d) then
+            return 0
+        else
+            return 1
+        end
+    end
+    -- d 小于 2^63
+    -- 被除数除以2, 然后除以除数, 再把结果乘以 2
+    -- 右移 1 位等价于除以 2 的无符号除法, 其结果是一个非负有符号整型数
+    -- 左移一位纠正商, 还原了之前的除法
+    local q = ((n >> 1) // d) << 1
+    local r = n - q * d
+    -- 判断余数是否比除数大, 纠正最终的商
+    if not math.ult(r, d) then
+        q = q + 1
+    end
+    return q
+end
+
+--endregion
