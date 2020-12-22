@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec9b9b75-790b-4ead-955d-abfa018594e0" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F427A2CD-9F1A-412A-B26B-288BDCA4D453/ad/b55ad34b/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5CAC3F76-5EFB-4A71-98FB-BE8126E46E77/e6/6843ff8a/GUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/RawImage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/11BD515F-D2A0-4526-8509-D23726DE0F46/4c/4840b80c/FieldInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5CAC3F76-5EFB-4A71-98FB-BE8126E46E77/b1/718503e7/GUIStyle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/RectangularVertexClipper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2C33585F-0376-4DA9-B654-D3A0AEF97FFC/cf/edf10158/IClippable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/RectMask2DEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/17/bc7ec6fc/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F427A2CD-9F1A-412A-B26B-288BDCA4D453/8d/c0d0b390/Texture2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskableGraphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F427A2CD-9F1A-412A-B26B-288BDCA4D453/aa/b4bd576a/Texture.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F427A2CD-9F1A-412A-B26B-288BDCA4D453/f3/fe8fb05d/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Mask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.9f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/RectMask2D.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Test/Scripts/TestUIPosition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mask/UImask.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mask/GetSetImagePixel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mask/IrregularAreaMask.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gJpsIDtWhaGEuTQ1YCDHH45ObW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3500804" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29983923" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13288">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="13288" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec9b9b75-790b-4ead-955d-abfa018594e0" name="默认的" comment="" />
+      <created>1597842758956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597842758956</updated>
+      <workItem from="1597842779369" duration="1171000" />
+      <workItem from="1598671881346" duration="210000" />
+      <workItem from="1598755652066" duration="48000" />
+      <workItem from="1599486213943" duration="4074000" />
+      <workItem from="1599570838102" duration="7740000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="439" y="453" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598672091274">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="439" y="453" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1598672091274" />
+    <state x="940" y="451" key="#com.intellij.tools.ToolEditorDialog" timestamp="1598672092915">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="940" y="451" key="#com.intellij.tools.ToolEditorDialog/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1598672092915" />
+    <state width="582" height="464" key="DebuggerActiveHint" timestamp="1599578527639">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="582" height="464" key="DebuggerActiveHint/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599578527639" />
+    <state x="1003" y="621" width="564" height="158" key="GitCloneDialog" timestamp="1599490075393">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1003" y="621" width="564" height="158" key="GitCloneDialog/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599490075393" />
+    <state width="2519" height="519" key="GridCell.Tab.0.bottom" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.0.bottom/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.0.center" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.0.center/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.0.left" timestamp="1599579187111">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.0.left/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187111" />
+    <state width="2519" height="519" key="GridCell.Tab.0.right" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.0.right/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.1.bottom" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.1.bottom/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.1.center" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.1.center/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.1.left" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.1.left/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.1.right" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.1.right/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.2.bottom" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.2.bottom/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.2.center" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.2.center/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.2.left" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.2.left/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.2.right" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.2.right/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.3.bottom" timestamp="1599579187113">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.3.bottom/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187113" />
+    <state width="2519" height="519" key="GridCell.Tab.3.center" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.3.center/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.3.left" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.3.left/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state width="2519" height="519" key="GridCell.Tab.3.right" timestamp="1599579187112">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2519" height="519" key="GridCell.Tab.3.right/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599579187112" />
+    <state x="1061" y="374" key="RiderGenerateDialog" timestamp="1599489619813">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="374" key="RiderGenerateDialog/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599489619813" />
+    <state x="811" y="345" key="SettingsEditor" timestamp="1598672094080">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="811" y="345" key="SettingsEditor/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1598672094080" />
+    <state width="325" height="445" key="SwitcherDM" timestamp="1597843089601">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="325" height="445" key="SwitcherDM/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1597843089601" />
+    <state x="797" y="294" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599577282942">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="797" y="294" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599577282942" />
+    <state x="936" y="353" width="672" height="676" key="search.everywhere.popup" timestamp="1599576625199">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="353" width="672" height="676" key="search.everywhere.popup/0.0.2560.1400/-3840.14.2560.1400@0.0.2560.1400" timestamp="1599576625199" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/EventDelivery.cs</url>
+          <line>42</line>
+          <properties documentPath="D:\Dev\Tools\Unity\Assets\Scripts\EventDelivery.cs" initialLine="42">
+            <startOffsets>
+              <option value="1138" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1188" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mask/IrregularAreaMask.cs</url>
+          <line>65</line>
+          <properties documentPath="D:\Dev\Tools\Unity\Assets\Scripts\Mask\IrregularAreaMask.cs" initialLine="65">
+            <startOffsets>
+              <option value="1353" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1469" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mask/IrregularAreaMask.cs</url>
+          <line>77</line>
+          <properties documentPath="D:\Dev\Tools\Unity\Assets\Scripts\Mask\IrregularAreaMask.cs" initialLine="77">
+            <startOffsets>
+              <option value="1816" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1859" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mask/IrregularAreaMask.cs</url>
+          <line>56</line>
+          <properties documentPath="D:\Dev\Tools\Unity\Assets\Scripts\Mask\IrregularAreaMask.cs" initialLine="56">
+            <startOffsets>
+              <option value="1161" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1184" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mask/IrregularAreaMask.cs</url>
+          <line>25</line>
+          <properties documentPath="D:\Dev\Tools\Unity\Assets\Scripts\Mask\IrregularAreaMask.cs" initialLine="25">
+            <startOffsets>
+              <option value="483" />
+            </startOffsets>
+            <endOffsets>
+              <option value="499" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Mask/IrregularAreaMask.cs</url>
+          <line>32</line>
+          <properties documentPath="D:\Dev\Tools\Unity\Assets\Scripts\Mask\IrregularAreaMask.cs" initialLine="32">
+            <startOffsets>
+              <option value="601" />
+            </startOffsets>
+            <endOffsets>
+              <option value="622" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
